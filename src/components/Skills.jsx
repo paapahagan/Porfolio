@@ -94,9 +94,11 @@ function Skills() {
           </div>
         </div>
         <div className="mt-10 flex justify-center">
-          <button className=" border-2 border-teal-900 hover:bg-slate-900 px-8 py-4 font-bold hover:text-teal-600">
-            Download CV
-          </button>
+          <a href="/Resume1.pdf">
+            <button className=" border-2 border-teal-900 hover:bg-slate-900 px-8 py-4 font-bold hover:text-teal-600">
+              Download CV
+            </button>
+          </a>
         </div>
       </div>
     </div>
