@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function Landing() {
   return (
@@ -19,12 +20,19 @@ function Landing() {
             <p className="text-2xl lg:text-4xl">based in Accra, GH.</p>
           </div>
           <div className="flex gap-x-5 mt-10 lg:justify-items-start">
-            <button className=" border-2 border-teal-900 font-bold hover:bg-slate-900 hover:text-teal-600 px-6 py-3">
+            <a
+              href="#works"
+              className=" border-2 border-teal-900 font-bold hover:bg-slate-900 hover:text-teal-600 px-6 py-3"
+            >
               View my works
-            </button>
-            <button className=" font-bold hover:text-teal-600">
+            </a>
+
+            <a
+              href="#about"
+              className="font-bold border-2 border-teal-900 hover:text-teal-600 hover:bg-slate-900  py-3 px-6"
+            >
               Contact me
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -3,14 +3,16 @@ import About from "./components/About";
 import Landing from "./components/Landing";
 import Nav from "./components/Nav";
 import Skills from "./components/Skills";
+import Works from "./components/Works";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Nav />
       <Landing />
       <About />
       <Skills />
+      <Works />
     </div>
   );
 }
