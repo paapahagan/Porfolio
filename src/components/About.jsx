@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <div
-      className="px-10 py-10 min-h-screen bg-slate-700 lg:min-h-min"
+      className="px-10 py-10 min-h-screen bg-slate-200 lg:min-h-min"
       id="about"
     >
       <div className="container mx-auto grid gap-y-5 text-gray-400 justify-items-center p-5 ">
@@ -33,7 +33,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="mt-10 grid grid-cols-2 gap-y-5 text-lg lg:flex space-x-48 mx-auto">
+        <div className="mt-10 grid grid-cols-2 md:flex md:gap-x-52">
           <div className="">
             <p>Name:</p>
             <p className=" font-bold">Paa Kwesi Hagan</p>

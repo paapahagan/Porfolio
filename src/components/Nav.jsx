@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <div className="fixed bg-black w-screen">
+    <div className="fixed bg-white shadow-2xl w-screen z-10">
       <div className="px-5 text-gray-500 p-5 ">
         <ul className="flex justify-between">
           <li className="text-lg">PAA KWESI HAGAN</li>

@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 function Landing() {
   return (
-    <div className=" px-10 py-10 min-h-screen bg-slate-800 grid content-center ">
+    <div className=" px-10 py-10 min-h-screen grid content-center ">
       {/* container */}
       <div className="container grid gap-y-10 text-gray-500 justify-items-center  md:flex justify-evenly flex-row-reverse ">
         {/* image */}

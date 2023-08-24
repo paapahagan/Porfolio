@@ -2,7 +2,7 @@ import React from "react";
 
 function Works() {
   return (
-    <div className="bg-slate-700 px-5 py-5 " id="works">
+    <div className="bg-slate-200 px-5 py-5 " id="works">
       <div className="container mx-auto">
         <div className="text-center mb-5 md:text-center lg:text-center text-3xl font-bold text-slate-400">
           Projects

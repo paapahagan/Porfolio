@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <div className="px-10 py-10 min-h-screen bg-slate-800 ">
+    <div className="px-10 py-10 min-h-screen ">
       <div className="container mx-auto p-5 text-gray-500 lg:p-24">
         <p className="text-3xl font-bold p-4 lg:">My Skill</p>
         <div className="md:grid grid-cols-2 lg:">
